@@ -1,0 +1,22 @@
+{
+  "name": "image-auto-level",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "caman": "^4.1.2",
+    "q": "^1.4.1",
+    "webcomponents": "^0.1.4",
+    "webcomponents.js": "^0.7.22",
+    "webpack": "^1.13.1"
+  },
+  "devDependencies": {
+    "bower-webpack-plugin": "^0.1.9",
+    "webpack-dev-server": "^1.14.1"
+  }
+}

@@ -1,0 +1,29 @@
+<template>
+	<style>
+		canvas {
+			
+		}
+	</style>
+		<input type="file" capture="camera"></input>
+	<form id="color">
+		<label>Red</label>
+		<input name="red" rv-value="color.red" type="number" min="-100" max="100"/>
+		<label>Green</label>
+		<input name="green" rv-value="color.green" type="number" min="-100" max="100"/>
+		<label>Blue</label>
+		<input name="blue" rv-value="color.blue" type="number" min="-100" max="100"/>
+
+		{color.red}
+
+		{color.green}
+
+		{color.blue}
+	</form>
+	<canvas id="preview"></canvas>
+	<img id="previewImage" />
+	<content></content>
+</template>
+<!-- directly adding caman to dom, issues with webpack -->
+<script type="text/javascript" src="bower_components/caman/dist/caman.full.min.js"></script>
+<script type="text/javascript" src="src/main.min.js"></script>
+	

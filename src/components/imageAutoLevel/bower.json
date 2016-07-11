@@ -1,0 +1,23 @@
+{
+  "name": "image-auto-level",
+  "description": "",
+  "main": "webpack.config.js",
+  "authors": [
+    "Mark Barretto <mark.barretto@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/markBarretto/canvasAutoLevel",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "caman": "^4.1.2",
+    "Stamp": "stamp#*"
+  }
+}

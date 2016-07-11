@@ -1,0 +1,27 @@
+{
+  "name": "canvas-auto-level",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markBarretto/canvasAutoLevel.git"
+  },
+  "author": "Mark Barretto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markBarretto/canvasAutoLevel/issues"
+  },
+  "homepage": "https://github.com/markBarretto/canvasAutoLevel#readme",
+  "dependencies": {
+    "webcomponents": "^0.1.4",
+    "webcomponents.js": "^0.7.22",
+    "webpack": "^1.13.1"
+  },
+  "devDependencies": {
+    "babel-loader": "^6.2.4"
+  }
+}
